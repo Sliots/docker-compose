@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  valkjsaaa:
+    restart: always
+    container_name: auto-bilibili-recorder
+    volumes:
+        - '/home/blive:/storage'
+    image: 'ghcr.io/valkjsaaa/auto-bilibili-recorder:master'
